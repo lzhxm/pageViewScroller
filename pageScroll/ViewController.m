@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "pageView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    pageView *pView = [[pageView alloc] initWithRect:CGRectMake(0, 0, 375, 100) ImageArray:@[@"new_feature_1",@"new_feature_2",@"new_feature_3"]];
+    
+    pView.timeInterVal = 2;
+    [self.view addSubview:pView];
 }
 
 - (void)didReceiveMemoryWarning {

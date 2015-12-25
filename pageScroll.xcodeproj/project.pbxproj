@@ -14,6 +14,10 @@
 		3C6AB2AC1C16F02C000E648A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6AB2AB1C16F02C000E648A /* Images.xcassets */; };
 		3C6AB2AF1C16F02C000E648A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C6AB2AD1C16F02C000E648A /* LaunchScreen.xib */; };
 		3C6AB2BB1C16F02C000E648A /* pageScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6AB2BA1C16F02C000E648A /* pageScrollTests.m */; };
+		3C72F0591C1AF67500A75BA3 /* pageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F0571C1AF67500A75BA3 /* pageView.m */; };
+		3C72F05E1C1AF89800A75BA3 /* new_feature_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C72F05B1C1AF89800A75BA3 /* new_feature_1@2x.png */; };
+		3C72F05F1C1AF89800A75BA3 /* new_feature_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C72F05C1C1AF89800A75BA3 /* new_feature_2@2x.png */; };
+		3C72F0601C1AF89800A75BA3 /* new_feature_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C72F05D1C1AF89800A75BA3 /* new_feature_3@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		3C6AB2B41C16F02C000E648A /* pageScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6AB2B91C16F02C000E648A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C6AB2BA1C16F02C000E648A /* pageScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pageScrollTests.m; sourceTree = "<group>"; };
+		3C72F0571C1AF67500A75BA3 /* pageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageView.m; sourceTree = "<group>"; };
+		3C72F0581C1AF67500A75BA3 /* pageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageView.h; sourceTree = "<group>"; };
+		3C72F05B1C1AF89800A75BA3 /* new_feature_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_1@2x.png"; sourceTree = "<group>"; };
+		3C72F05C1C1AF89800A75BA3 /* new_feature_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_2@2x.png"; sourceTree = "<group>"; };
+		3C72F05D1C1AF89800A75BA3 /* new_feature_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_3@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,9 @@
 		3C6AB29D1C16F02C000E648A /* pageScroll */ = {
 			isa = PBXGroup;
 			children = (
+				3C72F05A1C1AF89800A75BA3 /* materials */,
+				3C72F0571C1AF67500A75BA3 /* pageView.m */,
+				3C72F0581C1AF67500A75BA3 /* pageView.h */,
 				3C6AB2A21C16F02C000E648A /* AppDelegate.h */,
 				3C6AB2A31C16F02C000E648A /* AppDelegate.m */,
 				3C6AB2A51C16F02C000E648A /* ViewController.h */,
@@ -117,6 +129,16 @@
 				3C6AB2B91C16F02C000E648A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C72F05A1C1AF89800A75BA3 /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				3C72F05B1C1AF89800A75BA3 /* new_feature_1@2x.png */,
+				3C72F05C1C1AF89800A75BA3 /* new_feature_2@2x.png */,
+				3C72F05D1C1AF89800A75BA3 /* new_feature_3@2x.png */,
+			);
+			path = materials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +223,9 @@
 			files = (
 				3C6AB2AA1C16F02C000E648A /* Main.storyboard in Resources */,
 				3C6AB2AF1C16F02C000E648A /* LaunchScreen.xib in Resources */,
+				3C72F05F1C1AF89800A75BA3 /* new_feature_2@2x.png in Resources */,
+				3C72F05E1C1AF89800A75BA3 /* new_feature_1@2x.png in Resources */,
+				3C72F0601C1AF89800A75BA3 /* new_feature_3@2x.png in Resources */,
 				3C6AB2AC1C16F02C000E648A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C6AB2A71C16F02C000E648A /* ViewController.m in Sources */,
+				3C72F0591C1AF67500A75BA3 /* pageView.m in Sources */,
 				3C6AB2A41C16F02C000E648A /* AppDelegate.m in Sources */,
 				3C6AB2A11C16F02C000E648A /* main.m in Sources */,
 			);
@@ -416,6 +442,7 @@
 				3C6AB2C01C16F02C000E648A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6AB2C11C16F02C000E648A /* Build configuration list for PBXNativeTarget "pageScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +451,7 @@
 				3C6AB2C31C16F02C000E648A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
